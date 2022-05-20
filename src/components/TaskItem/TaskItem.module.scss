@@ -1,0 +1,25 @@
+@import '../../scss/variables';
+
+.itemWrapper {
+  width: 500px;
+  margin: 20px auto;
+  border-radius: $radius;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #000;
+}
+
+.deleteIcon {
+  color: #59a7d8;
+  cursor: pointer;
+  transform: scale(2);
+}
+
+.check {
+  width: 30px;
+  height: 30px;
+  border-radius: $radius;
+  cursor: pointer;
+}
